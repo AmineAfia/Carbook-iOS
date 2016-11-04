@@ -1,3 +1,11 @@
+ ██████╗ █████╗ ██████╗ ██████╗  ██████╗  ██████╗ ██╗  ██╗
+██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔═══██╗██╔═══██╗██║ ██╔╝
+██║     ███████║██████╔╝██████╔╝██║   ██║██║   ██║█████╔╝ 
+██║     ██╔══██║██╔══██╗██╔══██╗██║   ██║██║   ██║██╔═██╗ 
+╚██████╗██║  ██║██║  ██║██████╔╝╚██████╔╝╚██████╔╝██║  ██╗
+ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ╚═════╝  ╚═════╝ ╚═╝  ╚═╝
+                                                          
+
 # Carbook
 
 Carbook is a parking app and parking sharing app. The idea was planted in the business planing seminar at the KIT. The Idea is to develope a car social network to recommend parking places based on: Scannes of satellite images, users recommendations and partnerships with parking houses. Moreover users can register their personal parking places to rent them using the app.
