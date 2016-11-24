@@ -99,7 +99,7 @@ class AppContainer extends Component {
     };
 
     // Show a cross icon when transition pops from bottom
-    if(route.transition == 'FloatFromBottom') {
+    if (route.transition == 'FloatFromBottom') {
       leftButton.icon = 'ios-close-outline';
     }
 
@@ -107,10 +107,14 @@ class AppContainer extends Component {
       <View style={[AppStyles.appContainer, AppStyles.container]}>
         <NavigationBar
           title={<NavbarElements.Title title={title || null} />}
-          statusBar={{style: 'light-content', hidden: false}}
+          statusBar={{ style: 'light-content', hidden: false }}
           style={[AppStyles.navbar]}
           tintColor={AppConfig.primaryColor}
-          leftButton={<NavbarElements.LeftButton onPress={leftButton.onPress} icon={leftButton.icon} />} />
+          leftButton={<NavbarElements.LeftButton 
+          onPress={leftButton.onPress} 
+          icon={leftButton.icon} 
+          />} 
+        />
 
         <route.component navigator={navigator} route={route} {...route.passProps} />
       </View>
@@ -146,7 +150,8 @@ class AppContainer extends Component {
             passProps: {
               showSplashScreen: true,
             }
-          }} />
+          }} 
+        />
 
       </SideMenu>
     );
