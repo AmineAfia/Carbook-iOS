@@ -14,7 +14,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		/qhNXUmhtlZeJWMQw4zn4lL+cFM=
+		ngJkd6DtykWnlkXlFFkPVRLMUuY=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -227,23 +227,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		orgiSY3hBG6mEe/YaBfAycb/lkE=
+		K2ZbmbUjrjKl9UVmKXQuIiyqWr8=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
 		D3lWcE/mG0nEHqGiIFEkD3AKK0Q=
 		</data>
-		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
-		<data>
-		w19gJEfc2YsLnx2c4wv7F7MSEfU=
-		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
-		n2t8gsDpfE6XkhG31p7IQJRxTxU=
+		Pe1Ga/9xujxH2l3unlyNFeDDWOM=
 		</data>
-		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
+		<key>LaunchScreen.storyboardc/UIViewController-YRZ-j4-N6z.nib</key>
 		<data>
-		attjCudTaQRhANMs7/N6UuxLrOg=
+		DiyLSXqNRgVscttgtnhLKb2FC9s=
+		</data>
+		<key>LaunchScreen.storyboardc/YRZ-j4-N6z-view-9XH-ez-F0t.nib</key>
+		<data>
+		FozQfkL5r+1t7xCyCqvTdW4Up/U=
 		</data>
 		<key>MaterialIcons.ttf</key>
 		<data>
@@ -263,7 +263,7 @@
 		</data>
 		<key>PlugIns/StarterKitTests.xctest/StarterKitTests</key>
 		<data>
-		ag3wbbitTqIFxHQ+PqEHZxrXWVo=
+		JUGgTzSOLEy4vEHzVBHxkYu5Kvk=
 		</data>
 		<key>PlugIns/StarterKitTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
@@ -295,11 +295,11 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		XE2/ap8jS9PVdLy+qMvA5TEu9rg=
+		1gmGry6XDC9Xdh9DMRp4A0Ir1Gk=
 		</data>
 		<key>main.jsbundle.meta</key>
 		<data>
-		P8QxlwyEg77qveMfey8nJofMVsc=
+		2jUoScSbqLPAhjq6X4IyoiCK/LM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -330,11 +330,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/qhNXUmhtlZeJWMQw4zn4lL+cFM=
+			ngJkd6DtykWnlkXlFFkPVRLMUuY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ew7hJuj57+seUqfCnTdYvYNc35lB7DsLNfl+1hEBVE8=
+			fdIM5aEynGINx1Kfi9crTza3PasYIWl4EvwVXuh9boQ=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -916,37 +916,37 @@
 			u0dnmwuuuEgbf1HGitM65aUmc2y1CxcXzGD/a2X5CKM=
 			</data>
 		</dict>
-		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			w19gJEfc2YsLnx2c4wv7F7MSEfU=
-			</data>
-			<key>hash2</key>
-			<data>
-			uzq8FdXVMT5XHH0CgL5YZ23+28IecmBbzAw+RJVwVNk=
-			</data>
-		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			n2t8gsDpfE6XkhG31p7IQJRxTxU=
+			Pe1Ga/9xujxH2l3unlyNFeDDWOM=
 			</data>
 			<key>hash2</key>
 			<data>
-			HyVdXMU7Ux4/KalAao30mpWOK/lEPT4gvYN09wf31cg=
+			s5CYgCUeoCTu69Y3HmZyE1K+03YAMQXz7vKaP+OUjV0=
 			</data>
 		</dict>
-		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
+		<key>LaunchScreen.storyboardc/UIViewController-YRZ-j4-N6z.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			attjCudTaQRhANMs7/N6UuxLrOg=
+			DiyLSXqNRgVscttgtnhLKb2FC9s=
 			</data>
 			<key>hash2</key>
 			<data>
-			CmKhMScDI5dbmfawO3e+NzWoesIPrDY9IqkdZsAc5D0=
+			IKYDeVq1kq/mwj6/Rl0BXQ5uzfZKxoI5DXsmAzrOE3c=
+			</data>
+		</dict>
+		<key>LaunchScreen.storyboardc/YRZ-j4-N6z-view-9XH-ez-F0t.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FozQfkL5r+1t7xCyCqvTdW4Up/U=
+			</data>
+			<key>hash2</key>
+			<data>
+			J94lwFogqr2zjBMcl0eTgLBRG2wMr/i1CUlHn/sX9FU=
 			</data>
 		</dict>
 		<key>MaterialIcons.ttf</key>
@@ -986,11 +986,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ag3wbbitTqIFxHQ+PqEHZxrXWVo=
+			JUGgTzSOLEy4vEHzVBHxkYu5Kvk=
 			</data>
 			<key>hash2</key>
 			<data>
-			1a+vApuQISRwZ5cZFzR0tzCbwo7AV6xq9vbyNpgmFLk=
+			Hmp9K0jCyKVWQLdzZ2LaDrqGbFe2zF9WXNDNYi3FuMI=
 			</data>
 		</dict>
 		<key>PlugIns/StarterKitTests.xctest/_CodeSignature/CodeResources</key>
@@ -1074,22 +1074,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XE2/ap8jS9PVdLy+qMvA5TEu9rg=
+			1gmGry6XDC9Xdh9DMRp4A0Ir1Gk=
 			</data>
 			<key>hash2</key>
 			<data>
-			F5bKb3aEz6VFYX0DnK47SW8a2VAEwx++FYSEqFMyfSA=
+			0wkkOZlXNKBR/UxOXHMx2+dU6xCfNu/fvv6dWNPbD/w=
 			</data>
 		</dict>
 		<key>main.jsbundle.meta</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			P8QxlwyEg77qveMfey8nJofMVsc=
+			2jUoScSbqLPAhjq6X4IyoiCK/LM=
 			</data>
 			<key>hash2</key>
 			<data>
-			kGlks+Ye0cVVQxAk6MqEfljUpNsTABWBRtqBQvUowhg=
+			qgc+elellcnbF1e63IDz/YxvLNWk5rPcrf4Yrc9flT8=
 			</data>
 		</dict>
 	</dict>

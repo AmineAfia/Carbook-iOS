@@ -7,26 +7,27 @@
 'use strict';
 
 /* Setup ==================================================================== */
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import {
   StyleSheet,
   View,
   Text,
-  TouchableOpacity
-} from 'react-native'
+  TouchableOpacity,
+  Image
+} from 'react-native';
 
 // App Globals
-import AppStyles from '../styles'
-import AppConfig from '../config'
+import AppStyles from '../styles';
+import AppConfig from '../config';
 
 // Screens
-import StyleGuide from '../screens/style.guide';
+// import StyleGuide from '../screens/style.guide';
 import ComingSoon from '../screens/soon';
-import FormExample from '../screens/forms';
+// import FormExample from '../screens/forms';
 import ListViewExample from '../screens/listview';
 import Tabs from '../screens/tabs';
 import Profile from '../screens/profile';
-
+import Parking from '../screens/parking';
 
 /* Component ==================================================================== */
 class Menu extends Component {
@@ -40,13 +41,17 @@ class Menu extends Component {
     // Initial state
     this.state = {
       menu: [
-        {title: 'Home', component: ComingSoon, props: { passProps: { placeholder: 'Hey there, you passProps bro?' } } },
-        {title: 'Profile', component: Profile},
+        { title: 'Home', 
+        component: ComingSoon, 
+        props: { passProps: { placeholder: 'Hey there, you passProps bro?' } } },
+        { title: 'Profile', component: Profile },
+        { title: 'Parking', component: Parking },
         // {title: 'Style Guide', component: StyleGuide},
-        {title: 'Tabs', component: Tabs},
+        // { title: 'Tabs', component: Tabs },
         // {title: 'Forms', component: FormExample},
-        // {title: 'List Example', component: ListViewExample, props: {passProps: {noImages: true}}},
-        {title: 'Parkings', component: ListViewExample},
+        // {title: 'List Example', component: 
+        // ListViewExample, props: {passProps: {noImages: true}}},
+        { title: 'Parking Houses', component: ListViewExample },
       ],
     };
   }
@@ -67,15 +72,32 @@ class Menu extends Component {
         <TouchableOpacity key={'menu-item-'+title}
           onPress={()=>navigate(title, component, props)}>
           <View style={[styles.menuItem]}>
-            <Text style={[AppStyles.baseText, styles.menuItem_text]}>{title}</Text>
+          <Text style={[AppStyles.baseText, styles.menuItem_text]}>{title}</Text>            
           </View>
         </TouchableOpacity>
       );
     });
 
     return (
-      <View style={[styles.menuContainer]}>
-        <View style={[styles.menu]}>{menuItems}</View>
+      <View style={[styles.menuContainer]}> 
+        <View style={[styles.menu]}>
+          {menuItems}
+          
+          <TouchableOpacity>
+              <View style={[styles.menuItem]}>
+              <Text style={[AppStyles.baseText, styles.menuItem_text]}>Logout</Text>            
+              </View>
+          </TouchableOpacity>
+          
+          <TouchableOpacity>
+          <View style={[styles.logoMenuItem, styles.thumbnailContainerStyle]}>
+              <Image
+                source={{ uri: 'https://s17.postimg.org/anq6xcztb/carvbook.png' }}
+                style={styles.logo}
+              />
+          </View>
+          </TouchableOpacity>
+        </View>
       </View>
     );
   }
@@ -84,6 +106,21 @@ class Menu extends Component {
 
 /* Styles ==================================================================== */
 const styles = StyleSheet.create({
+  thumbnailContainerStyle: {
+      top: 270,
+      justifyContent: 'flex-end',
+      alignItems: 'center',
+      marginLeft: 10,
+      marginRight: 10
+    },
+  logo: {
+    // position: 'absolute',
+    // top: 420,
+    width: 80,
+    height: 34,    
+    justifyContent: 'flex-end',
+    alignItems: 'flex-end',
+  },
   menuContainer: {
     flex: 1,
     left: 0,
@@ -98,6 +135,11 @@ const styles = StyleSheet.create({
     backgroundColor: "#111111",
     padding: 20,
     paddingTop: AppConfig.statusBarHeight,
+  },
+  logoMenuItem: {
+    flex: 1,
+    borderBottomWidth: 0,
+    paddingBottom: 10,
   },
   menuItem: {
     flex: 1,

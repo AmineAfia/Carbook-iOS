@@ -117,7 +117,8 @@ class ListViewExample extends Component {
             index: 2,
             transition: 'FloatFromBottom',
           });
-        }} />
+        }} 
+      />
     );
   }
 

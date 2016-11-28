@@ -14,7 +14,7 @@ import {
   View,
   ActivityIndicator,
   Text
-} from 'react-native'
+} from 'react-native';
 
 // App Globals
 import AppStyles from '../styles'

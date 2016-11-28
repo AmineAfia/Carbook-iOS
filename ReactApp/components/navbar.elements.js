@@ -12,6 +12,8 @@ import {
   StyleSheet,
   Text,
   TouchableOpacity,
+  View,
+  Image
 } from 'react-native'
 import Icon from 'react-native-vector-icons/Ionicons';
 
@@ -26,7 +28,17 @@ class NavbarTitle extends Component {
   }
 
   render = () => {
-    return (
+  // if (this.props.title == 'Home') { 
+  //     return (          
+  //       <View style={styles.thumbnailContainerStyle}>
+  //         <Image
+  //           source={{ uri: 'https://s17.postimg.org/anq6xcztb/carvbook.png' }}
+  //           style={styles.logo}
+  //         />
+  //       </View>
+  //     );
+  // } 
+  return (
       <Text style={[AppStyles.baseText, AppStyles.strong, styles.navbarTitle]}>{this.props.title || 'Starter Kit'}</Text>
     );
   }
@@ -57,6 +69,20 @@ exports.LeftButton = NavbarLeftButton;
 
 /* Styles ==================================================================== */
 const styles = StyleSheet.create({
+  thumbnailContainerStyle: {
+      justifyContent: 'center',
+      alignItems: 'center',
+      marginLeft: 10,
+      marginRight: 10
+    },
+  logo: {
+    // position: 'absolute',
+    // top: 420,
+    width: 80,
+    height: 34,    
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
   navbarButton: {
     left: 20,
     top: 4,

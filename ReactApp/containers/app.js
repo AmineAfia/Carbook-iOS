@@ -15,10 +15,12 @@ import {
   TouchableOpacity,
   Image,
   StatusBar,
+  TouchableWithoutFeedback
 } from 'react-native';
 import { connect } from 'react-redux';
 import NavigationBar from 'react-native-navbar';
 import SideMenu from 'react-native-side-menu';
+import DismissKeyboard from 'react-native/Libraries/Utilities/dismissKeyboard';
 
 // Actions
 import * as SideMenuActions from '../actions/sidemenu';
@@ -132,7 +134,8 @@ class AppContainer extends Component {
         disableGestures={this.props.sideMenuGesturesDisabled}
         isOpen={this.props.sideMenuIsOpen}
         onChange={this._onSideMenuChange}>
-
+        
+        <TouchableWithoutFeedback onPress={ () => { DismissKeyboard() } }>
         <Navigator
           ref="rootNavigator"
           style={[AppStyles.container, AppStyles.appContainer]}
@@ -152,7 +155,7 @@ class AppContainer extends Component {
             }
           }} 
         />
-
+        </TouchableWithoutFeedback>
       </SideMenu>
     );
   }

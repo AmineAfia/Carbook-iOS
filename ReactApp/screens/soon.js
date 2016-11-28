@@ -14,9 +14,12 @@ import {
   Text,
   TouchableOpacity,
   Modal,
-  MapView,
-  Image
+  Image,
+  TouchableHighlight
 } from 'react-native';
+import MapView from 'react-native-maps';
+import SearchBar from 'react-native-search-bar';
+import dismissKeyboard from 'react-native-dismiss-keyboard';
 
 // App Globals
 import AppStyles from '../styles';
@@ -38,7 +41,7 @@ class ComingSoon extends Component {
 
     this.state = {
       splashScreenVisible: this.props.showSplashScreen || false,
-    }
+    };
   }
 
   static propTypes = {
@@ -58,6 +61,11 @@ class ComingSoon extends Component {
     });
   }
 
+  blur() {
+    return NativeModules.RNSearchBarManager.blur(ReactNative.findNodeHandle(this));
+  }
+
+
   /**
     * Splash Screen - Skip
     */
@@ -68,8 +76,7 @@ class ComingSoon extends Component {
   /**
     * RENDER
     */
-  render = () => {
-
+  render() {
     //let text = this.props.placeholder || 'renderImage';
 
 //  <View style={[AppStyles.container, AppStyles.containerCentered]}>
@@ -108,21 +115,81 @@ class ComingSoon extends Component {
 //       </View>
 
             // <Button style={styles.changeButton}>Change</Button>
-
     // Done
     return (
-        <View>
-            <MapView
-              style={{ height: 700 }}
-              showsUserLocation={true}
-              followUserLocation={true}
-            />
-        </View>
+        // <View>
+        //     <MapView
+        //       style={{ height: 700 }}
+        //       showsUserLocation={true}
+        //       followUserLocation={true}
+        //     />
+        // </View>
+        // <View style={[AppStyles.container]}>
+    
+      <View style={[AppStyles.container]} onPress={() => dismissKeyboard()}>
+          <MapView
+            style={styles.map}
+            // provider="google"
+            initialRegion={{
+              latitude: 37.78825,
+              longitude: -122.4324,
+              latitudeDelta: 0.0922,
+              longitudeDelta: 0.0421,
+            }}
+            showsUserLocation={true}
+            followsUserLocation={true}
+          />
+          <SearchBar
+              placeholder='Search'
+              // textFieldBackgroundColor='grey'
+          />
+          <View style={styles.thumbnailContainerStyle}>
+          <Image
+            source={{ uri: 'https://s17.postimg.org/anq6xcztb/carvbook.png' }}
+            style={styles.logo}
+          />
+          </View>
+      </View>
+    
     );
   }
 }
 
 const styles = {
+  thumbnailContainerStyle: {
+      justifyContent: 'flex-end',
+      alignItems: 'flex-end',
+      marginLeft: 10,
+      marginRight: 10
+    },
+  logo: {
+    // position: 'absolute',
+    top: 420,
+    width: 80,
+    height: 34,    
+    justifyContent: 'flex-end',
+    alignItems: 'flex-end',
+  },
+  container: {
+    // position: 'absolute',
+    // top: 0,
+    // left: 0,
+    // right: 0,
+    // bottom: 0,
+    // justifyContent: 'flex-end',
+    // alignItems: 'center',
+    height: 700 
+  },
+  searchContainer: {
+    height: 700 
+  },
+  map: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+  },
     imageStyle: {
         height: 700,
         flex: 1,

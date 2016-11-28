@@ -8,9 +8,55 @@
 		<data>
 		UFzuh2FkqEGU36qnPAqIrAKQ5LY=
 		</data>
+		<key>LaunchScreen.storyboardc/Info.plist</key>
+		<data>
+		Pe1Ga/9xujxH2l3unlyNFeDDWOM=
+		</data>
+		<key>LaunchScreen.storyboardc/UIViewController-YRZ-j4-N6z.nib</key>
+		<data>
+		8q4BgiNp7jhyByKeekVPLqbPvC0=
+		</data>
+		<key>LaunchScreen.storyboardc/YRZ-j4-N6z-view-9XH-ez-F0t.nib</key>
+		<data>
+		+MstTqjQJ2yA9E5WwrHTfvmmu/k=
+		</data>
 	</dict>
 	<key>files2</key>
-	<dict/>
+	<dict>
+		<key>LaunchScreen.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Pe1Ga/9xujxH2l3unlyNFeDDWOM=
+			</data>
+			<key>hash2</key>
+			<data>
+			s5CYgCUeoCTu69Y3HmZyE1K+03YAMQXz7vKaP+OUjV0=
+			</data>
+		</dict>
+		<key>LaunchScreen.storyboardc/UIViewController-YRZ-j4-N6z.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8q4BgiNp7jhyByKeekVPLqbPvC0=
+			</data>
+			<key>hash2</key>
+			<data>
+			MSl4n0ruo9M7m+9g1F2UQZPnSYUmNCttCer85bNx+c4=
+			</data>
+		</dict>
+		<key>LaunchScreen.storyboardc/YRZ-j4-N6z-view-9XH-ez-F0t.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+MstTqjQJ2yA9E5WwrHTfvmmu/k=
+			</data>
+			<key>hash2</key>
+			<data>
+			HbnTVAKdxMS+KnOsHj/K1X6g5Yafi1PrGhc+Xt4QZQ8=
+			</data>
+		</dict>
+	</dict>
 	<key>rules</key>
 	<dict>
 		<key>^</key>

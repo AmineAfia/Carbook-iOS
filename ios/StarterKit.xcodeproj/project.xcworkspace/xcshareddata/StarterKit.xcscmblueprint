@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7D0F63BFE4EEAEA776DF86E32B19F275AC885B2B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7D0F63BFE4EEAEA776DF86E32B19F275AC885B2B" : 9223372036854775807,
+    "731CC60464DB8C6D633A6A7E69118A565B4EA7CC" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1A639769-331A-496D-95BB-82379361DA1E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7D0F63BFE4EEAEA776DF86E32B19F275AC885B2B" : "carbook_1.0\/",
+    "731CC60464DB8C6D633A6A7E69118A565B4EA7CC" : "react-native-maps\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "StarterKit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios\/StarterKit.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/airbnb\/react-native-maps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "731CC60464DB8C6D633A6A7E69118A565B4EA7CC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AmineAfia\/carbook.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7D0F63BFE4EEAEA776DF86E32B19F275AC885B2B"
+    }
+  ]
+}
