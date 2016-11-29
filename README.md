@@ -26,4 +26,9 @@ Carbook is a parking app and parking sharing app. The concept was planted in the
 
 
 ### Credits
-This project is based on the react native starter app by mcnamee: https://github.com/mcnamee/react-native-starter-app.git
+Thanks to all developers for the cool components/skeleton:
+
+- React native starter app by mcnamee: https://github.com/mcnamee/react-native-starter-app.git
+- React Native Maps by Airbnb: https://github.com/airbnb/react-native-maps
+- DatePicker component by xgfe: https://github.com/xgfe/react-native-datepicker
+- Search component by umhan35: https://github.com/umhan35/react-native-search-bar
