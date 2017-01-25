@@ -2,6 +2,8 @@
 
 Carbook is a parking app and parking sharing app. The concept was planted in the business planing seminar at the KIT. The Idea is to develope a social parking network to recommend parking places based on: Scannes of satellite images, users recommendations and partnerships with parking houses and rent them. Moreover users can register their personal parking places to rent them to other users.
 
+## [Detailed report for Business plan](https://github.com/AmineAfia/CarBook-report)
+
 # Screenshots
 
 ### Recommendation Map / Car Profile / Personal Spot Manager
