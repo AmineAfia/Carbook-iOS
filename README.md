@@ -6,7 +6,7 @@ Carbook is a parking app and parking sharing app. The concept was planted in the
 
 # Screenshots
 
-### Recommendation Map / Car Profile / Personal Spot Manager
+### Personal Spot Manager - Recommendation Map - Car Profile
 <p align="center">
   <img src="https://i.imgur.com/YWakmVo.jpg" width="700"/>
 </p>
