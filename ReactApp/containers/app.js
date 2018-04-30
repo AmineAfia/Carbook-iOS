@@ -29,6 +29,7 @@ import * as SideMenuActions from '../actions/sidemenu';
 import AppStyles from '../styles';
 import AppConfig from '../config';
 import AppUtil from '../util';
+// import * as TestFairy from 'react-native-testfairy'
 
 // Google Analytics
 import GoogleAnalytics from 'react-native-google-analytics-bridge';
@@ -46,6 +47,11 @@ class AppContainer extends Component {
   /**
     * On first load
     */
+
+  // componentWillMount = () => {
+  //   TestFairy.begin('f0be512666d29204f133da41edfa143b25eb4bff');
+  // }
+
   componentDidMount = () => {
     // Status Bar
     StatusBar.setHidden(false, 'slide'); // Slide in on load
